@@ -1,0 +1,99 @@
+h1{
+    margin-left: 30px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 0em;
+}
+body {
+    font-family: cursive;
+    margin: 0;
+    background-color: rgb(202, 230, 238);
+}
+.shapka{
+    background-color: rgb(40, 10, 173);
+    border-bottom-style: solid;
+    border-color: red;
+    margin-bottom: 20px;
+    height: 83px;
+    border-width: 4px;
+}
+.ssylka{
+    float: right;
+    font-size: 20px;
+    padding: 15px;
+}
+.ssylka a{
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+.ssylka a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    color: #fff;
+    width: 100%; 
+    background-color: black; 
+    left: 0px;
+    bottom: 0px;  
+}
+.tablichka{
+    border-style: solid;
+    border-color: black;
+    width: 350px;
+    height: 510px;
+    margin: 0 auto;
+    background-color: rgb(213, 227, 236);
+    border-width: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+h3{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(102, 16, 240);  
+    color: white;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    font-size: 25px;
+    border-bottom-width: 4px;
+}
+form{
+    margin: 15px 25px;
+    font-size: 20px;
+    line-height: 1;
+}
+.group{
+    line-height: 0;
+}
+button{
+    background-color: rgb(102, 16, 240);
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 8px;
+    margin-top: 12px;
+    border-width: 4px;
+    float: right;
+}
+select{
+    margin: -9px 0px 15px 0px;
+    width: 276px;
+    height: 30px;
+    font-family: cursive;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input{
+    margin-bottom: 13px;
+    width: 270px;
+    height: 20px;
+}

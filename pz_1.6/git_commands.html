@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Мій особистий блог</title>
+        <link rel = "stylesheet" href="style1.css">
+        
+    </head>
+    <body>
+        <div class="shapka">
+            <div class="ssylka">
+                <a href="">Вхід</a>
+                <a href="register.html">Реєстрація</a>
+            </div>
+            <h1> <b> Мій особистий блог </b> </h1>
+            <h2>Петрощук Марія</h2>
+        </div>   
+        
+        <div class="komandy">
+            <div class="box1">
+                <div class="create">
+                    <div id="h3"><h3> <b> Create a Repository </b> </h3></div>
+                    <div class="text">
+                        From scratch - Create a new local repository<br>
+                        <b>$ git init [project name]</b><br>
+                    </div>
+                    <div class="text">
+                        Download from an existing repository<br>
+                        <b>$ git clone my_url</b><br>
+                    </div>
+                </div>
+
+                <div class="observe">
+                    <div id="h4"><h3><b>Observe your Repository</b></h3></div>
+                    <div class="text">
+                        List new or modified files not yet commited<br>
+                        <b>$ git status</b><br>
+                    </div>
+                    <div class="text">
+                        Show the changes to files not yet staged<br>
+                        <b>$ git diff</b><br>
+                    </div>
+                    <div class="text">
+                        Show the changes to staged files<br>
+                        <b>$ git diff --cached</b><br>
+                    </div>
+                    <div class="text">
+                        Show all staged and unstaged file changes<br>
+                        <b>$ git diff HEAD</b><br>
+                    </div>
+                    <div class="text">
+                        Show the changes between two commitids<br>
+                        <b>$ git diff commit1 commit2</b><br>
+                    </div>
+                    <div class="text">
+                        List the change dates and authors for a file<br>
+                        <b>$ git blame [file]</b><br>
+                    </div>
+                    <div class="text">
+                        Show the file changes for a commit id and/or file<br>
+                        <b>$ git show [commit] : [file]</b><br>
+                    </div>
+                    <div class="text">
+                        Show full change history<br>
+                        <b>$ git log</b><br>
+                    </div>
+                    <div class="text">
+                        Show change history for file/directory including diffs<br>
+                        <b>$ git log -p [file/directory]</b><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div id="h5"><h3><b>Working with Branches</b></h3></div>
+                <div class="text">
+                    List all local branches<br>
+                    <b>$ git branch</b><br>
+                </div>
+                <div class="text">
+                    List all branches, local and remote<br>
+                    <b>$ git branch -av</b><br>
+                </div>
+                <div class="text">
+                    Switch to a branch, my_branch, and update working directory<br>
+                    <b>$ git checkout my_branch</b><br>
+                </div>
+                <div class="text">
+                    Create a new branch called new_branch<br>
+                    <b>$ git branch new_branch</b><br>
+                </div>
+                <div class="text">
+                    Delete the branch called my_branch<br>
+                    <b>$ git branch -d my_branch</b><br>
+                </div>
+                <div class="text">
+                    Merge branch_a into branch_b<br>
+                    <b>$ git checkout branch_b</b><br>
+                    <b>$ git merge branch_a</b><br>
+                </div>
+                <div class="text">
+                    Tag the current commit<br>
+                    <b>$ git tag my_tag</b><br>
+                </div>
+            </div>
+
+            <div class="box3">
+                <div id="h6"><h3><b>Make a change</b></h3></div>
+                <div class="text">
+                    Stages the file, ready for commit<br>
+                    <b>$ git add [file]</b><br>
+                </div>
+                <div class="text">
+                    Stage all changed files, ready for commit<br>
+                    <b>$ git add</b><br>
+                </div>
+                <div class="text">
+                    Commit all staged files to versioned history<br>
+                    <b>$ git commit -n "commit message"</b><br>
+                </div>
+                <div class="text">
+                    Commit all your tracked files to versioned history<br>
+                    <b>$ git commit -an "commit message"</b><br>
+                </div>
+                <div class="text">
+                    Unstages file, keeping the file changes<br>
+                    <b>$ git reset [file]</b><br>
+                </div>
+                <div class="text">
+                    Revert everything to the last commit<br>
+                    <b>$ git reset --hard</b><br>
+                </div>
+            </div>
+
+            <div class="box4">
+                <div class="synchronize">
+                    <div id="h7"><h3><b>Synchronize</b></h3></div>
+                    <div class="text">
+                        Get the latest changes from origin (no merge)<br>
+                        <b>$ git fetch</b><br>
+                    </div>
+                    <div class="text">
+                        Fetch the latest changes from origin and merge<br>
+                        <b>$ git pull</b><br>
+                    </div>
+                    <div class="text">
+                        Fetch the latest changes from origin and rebase<br>
+                        <b>$ git pull --rebase</b><br>
+                    </div>
+                    <div class="text">
+                        Push local changes to the origin<br>
+                        <b>$ git push</b><br>
+                    </div>
+                </div>
+
+                <div class="finally">
+                    <div id="h8"><h3><b>Finally!</b></h3></div>
+                    <div class="text">
+                        When in doubt, use git help<br>
+                        <b>$ git command --help</b><br>
+                    </div>
+                </div>
+
+                <div id="github">Or visit <a href="https://training.github.com/">https://training.github.com/</a> for official GitHub training.</div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; Всі права захищені <br> Розробник: курсант 291 навч.групи солд. Петрощук М.С.</p>
+        </footer>
+    </body>
